@@ -11,8 +11,8 @@ if not os.path.isdir(folder_path):
 
 print("Repairing in process...")
 
-# Size threshold in bytes (1 MB)
-size_threshold = 1 * 1024 * 1024
+
+size_threshold = 2 * 1024 * 1024
 
 # Get all files
 files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
